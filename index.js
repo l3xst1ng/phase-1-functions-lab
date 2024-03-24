@@ -40,8 +40,11 @@ function distanceTravelledInFeet(startBlock, destinationBlock) {
 }
 
 // Quiz 4
-function calculatesFarePrice(startBlock, endBlock) {
-  const distanceInFeet = distanceTravelledInFeet(startBlock, endBlock);
+function calculatesFarePrice(startBlock, destinationEndBlock) {
+  const distanceInFeet = distanceTravelledInFeet(
+    startBlock,
+    destinationEndBlock
+  );
 
   if (distanceInFeet <= 400) {
     return 0;

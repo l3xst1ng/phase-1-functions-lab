@@ -9,7 +9,6 @@ function distanceFromHqInBlocks(pickupLocationOfPassenger) {
     distanceInBlocks = distanceInBlocks * -1;
   }
 
-  // Returns the distance
   return distanceInBlocks;
 }
 
